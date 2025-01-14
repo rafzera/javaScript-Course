@@ -4,9 +4,10 @@ let currentResult = defaultResult;
 currentResult = (currentResult + 10) * 3 / 2 - 1;
 
 //template literal
-let calculationDescription = `( ${defaultResult}   + 10) 
+let calculationDescription = `( ${defaultResult} + 10) * 3 / 2 - 1`;
 
+let errorMessage = 'An error \n' +
+                    'occurred!';
 
-* 3 / 2 - 1`;
 
 outputResult(currentResult, calculationDescription);
